@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #efefef;
+}
+.navlink {
+  display: contents;
+}
+.image {
+  width: 121px;
+  cursor: not-allowed;
+  opacity: 1;
+  position: fixed;
+  align-self: center;
+  object-fit: cover;
+  animation-delay: 2s;
+  text-decoration: none;
+  transition-duration: 2s;
+}
+@media(max-width: 479px) {
+  .image {
+    width: 121px;
+    margin-top: 0px;
+  }
+}

@@ -1,0 +1,25 @@
+.container {
+  left: auto;
+  right: 0px;
+  width: 100%;
+  bottom: 0px;
+  display: flex;
+  position: fixed;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-end;
+  object-position: right;
+}
+.container1 {
+  flex: 0 0 auto;
+  width: 61px;
+  height: 14px;
+  display: flex;
+  z-index: 100;
+  align-items: flex-end;
+  margin-right: 35px;
+  margin-bottom: 35px;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: rgba(255, 133, 0, 0.92);
+}
