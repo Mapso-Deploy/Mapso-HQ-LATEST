@@ -5,7 +5,6 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/cozykev/Documents/GitHub/Mapso-HQ-LATEST/.cache/dev-404-page.js"))),
   "component---src-pages-blank-js": hot(preferDefault(require("/Users/cozykev/Documents/GitHub/Mapso-HQ-LATEST/src/pages/blank.js"))),
   "component---src-pages-explore-js": hot(preferDefault(require("/Users/cozykev/Documents/GitHub/Mapso-HQ-LATEST/src/pages/explore.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/cozykev/Documents/GitHub/Mapso-HQ-LATEST/src/pages/index.js"))),

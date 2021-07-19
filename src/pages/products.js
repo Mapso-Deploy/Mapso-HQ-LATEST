@@ -2,8 +2,7 @@ import React from "react"
 
 import HeaderDark from "../components/header-dark"
 import BitcoinBuyButtonTest from "../components/bitcoin-buy-button-test"
-
-import '@google/model-viewer';
+await import('@google/model-viewer/dist/model-viewer-legacy');
 
 const Test = () => {
 return (
