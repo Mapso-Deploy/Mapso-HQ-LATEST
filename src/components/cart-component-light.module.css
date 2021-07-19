@@ -4,7 +4,7 @@
   right: 0px;
   height: 81px;
   display: flex;
-  position: absolute;
+  position: static;
   align-self: flex-end;
   align-items: center;
   flex-shrink: 1;
@@ -28,6 +28,7 @@
     height: 81px;
     margin-top: 0px;
     align-items: flex-start;
+    position: relative; 
     margin-left: -63px;
     flex-direction: row;
     justify-content: flex-end;

@@ -1,6 +1,7 @@
 
 import React from 'react'
 import Cart from '/static/cart-white.png'
+import Spot from '/static/greendot.png'
 
 const CartComponentLight = () => {
 return (
@@ -46,8 +47,9 @@ flexDirection: 'row',
 justifyContent: 'center',
 background: 'transparent'
 }}>
-<span style={{
-fontSize: '9px', display: 'flex', lineHeight: '20px’, background: ‘White'}}>Items .</span><img src={Cart} style={{
+<img src={Spot}
+ style={{ width: '10px', marginTop: '-14px'
+}} /><img src={Cart} style={{
 width: '42px'}}/>
 </button>
 </div>

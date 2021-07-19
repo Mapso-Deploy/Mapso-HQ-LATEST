@@ -27,6 +27,7 @@ export default function HTML(props) {
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
         <noscript key="noscript" id="gatsby-noscript">
           This app works best with JavaScript enabled.
         </noscript>

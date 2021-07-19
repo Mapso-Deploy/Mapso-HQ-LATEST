@@ -5,7 +5,7 @@
   bottom: auto;
   height: 81px;
   display: flex;
-  position: absolute;
+  position: static;
   align-self: flex-end;
   align-items: center;
   flex-shrink: 1;

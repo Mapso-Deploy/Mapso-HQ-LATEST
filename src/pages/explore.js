@@ -5,6 +5,7 @@ import BitcoinBuyButtonTest from '../components/bitcoin-buy-button-test'
 
 const Explore = () => {
   return (
+    <>
     <div
       style={{
         width: '100%',
@@ -21,13 +22,14 @@ const Explore = () => {
       <HeaderLight></HeaderLight>
       <iframe
         src="https://cascadr.co/blogs/cozykev"
-        allowFullScreen="true"
+        allowFullScreen="true" title="Mapso Blog"
         style={{
-          top: '0px',
+          top: '-91px',
           left: 'auto',
           right: '0px',
           width: '100%',
           zIndex: '2',
+          position: 'absolute',
           overflow: 'hidden',
           marginTop: '-91',
           minHeight: '121vh',
@@ -35,6 +37,7 @@ const Explore = () => {
       ></iframe>
       <BitcoinBuyButtonTest></BitcoinBuyButtonTest>
     </div>
+    </>
   )
 }
 

@@ -3,6 +3,49 @@ import React from "react"
 import HeaderDark from "../components/header-dark"
 import BitcoinBuyButtonTest from "../components/bitcoin-buy-button-test"
 
+import '@google/model-viewer';
+
+const Test = () => {
+return (
+
+<model-viewer interaction-prompt="none" src='/product.glb' camera-controls min-camera-orbit="auto 90deg auto" max-camera-orbit="auto 90deg 7.699m" min-field-of-view="45deg" max-field-of-view="auto" camera-orbit="-90deg 90deg 7.699m" poster="poster.png" auto-rotate>
+
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    {/* <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png" />
+    </div> */} 
+</model-viewer>
+
+)
+}
+
+
+const Fuck12tee = () => {
+  return (
+  
+  <model-viewer src='/product.glb' camera-controls min-camera-orbit="auto 90deg auto" max-camera-orbit="auto 90deg 7.699m" min-field-of-view="45deg" max-field-of-view="auto" camera-orbit="-90deg 90deg 7.699m" poster="poster.png" auto-rotate>
+  
+  <div class="progress-bar hide" slot="progress-bar">
+  <div class="update-bar"></div>
+  </div>
+  <button slot="ar-button" id="ar-button">
+  View in your space
+  </button>
+  {/* <div id="ar-prompt">
+  <img src="https://modelviewer.dev/shared-assets/icons/hand.png" />
+  </div> */}
+  </model-viewer>
+  
+  )
+  }
+
+
+
 const Products = () => {
   return (
     <div
@@ -67,13 +110,11 @@ const Products = () => {
               backgroundColor: "rgba(217, 217, 217, 0)",
             }}
           >
-            <iframe
-              src="https://cdn.soft8soft.com/AROAJSY2GOEHMOFUVPIOE:825da74394/applications/Trial%203D%20Product/Trial%203D%20Product.html"
-              style={{
-                width: "952px",
-                height: "638px",
-              }}
-            ></iframe>
+
+<Fuck12tee style={{
+width: "952px",
+height: "638px",
+}}/>
           </div>
           <div
             style={{
@@ -95,13 +136,10 @@ const Products = () => {
               backgroundColor: "rgba(217, 217, 217, 0)",
             }}
           >
-            <iframe
-              src="https://cdn.soft8soft.com/AROAJSY2GOEHMOFUVPIOE:825da74394/applications/Trial%203D%20Product/Trial%203D%20Product.html"
-              style={{
-                width: "952px",
-                height: "638px",
-              }}
-            ></iframe>
+<Test style={{
+width: "952px",
+height: "638px",
+}}/>
           </div>
           <div
             style={{
@@ -122,13 +160,10 @@ const Products = () => {
               backgroundColor: "rgba(217, 217, 217, 0)",
             }}
           >
-            <iframe
-              src="https://cdn.soft8soft.com/AROAJSY2GOEHMOFUVPIOE:825da74394/applications/Trial%203D%20Product/Trial%203D%20Product.html"
-              style={{
-                width: "952px",
-                height: "638px",
-              }}
-            ></iframe>
+<Test style={{
+width: "952px",
+height: "638px",
+}}/>
           </div>
         </div>
         <div
@@ -158,13 +193,10 @@ const Products = () => {
               backgroundColor: "rgba(217, 217, 217, 0)",
             }}
           >
-            <iframe
-              src="https://cdn.soft8soft.com/AROAJSY2GOEHMOFUVPIOE:825da74394/applications/Trial%203D%20Product/Trial%203D%20Product.html"
-              style={{
-                width: "952px",
-                height: "638px",
-              }}
-            ></iframe>
+<Test style={{
+width: "952px",
+height: "638px",
+}}/>
           </div>
           <div
             style={{
@@ -186,13 +218,10 @@ const Products = () => {
               backgroundColor: "rgba(217, 217, 217, 0)",
             }}
           >
-            <iframe
-              src="https://cdn.soft8soft.com/AROAJSY2GOEHMOFUVPIOE:825da74394/applications/Trial%203D%20Product/Trial%203D%20Product.html"
-              style={{
-                width: "952px",
-                height: "638px",
-              }}
-            ></iframe>
+<Test style={{
+width: "952px",
+height: "638px",
+}}/>
           </div>
           <div
             style={{
@@ -213,13 +242,10 @@ const Products = () => {
               backgroundColor: "rgba(217, 217, 217, 0)",
             }}
           >
-            <iframe
-              src="https://cdn.soft8soft.com/AROAJSY2GOEHMOFUVPIOE:825da74394/applications/Trial%203D%20Product/Trial%203D%20Product.html"
-              style={{
-                width: "952px",
-                height: "638px",
-              }}
-            ></iframe>
+<Test style={{
+width: "952px",
+height: "638px",
+}}/>
           </div>
         </div>
       </div>

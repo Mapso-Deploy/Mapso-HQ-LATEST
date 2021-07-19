@@ -1,5 +1,6 @@
 import React from 'react'
 import Cart from '/static/cart.png'
+import Spot from '/static/greendot.png'
 
 const CartComponentDark = () => {
   return (
@@ -45,9 +46,10 @@ const CartComponentDark = () => {
           justifyContent: 'center',
           background: 'transparent'
         }}>
-<span style={{
-          fontSize: '9px', display: 'flex', lineHeight: '20px'}}>Items .</span><img src={Cart} style={{
-          width: '42px'}}/>
+<img src={Spot}
+ style={{ width: '10px', marginTop: '-14px'
+}} /><img src={Cart} style={{
+width: '42px'}}/>
 </button>
       </div>
     </div>

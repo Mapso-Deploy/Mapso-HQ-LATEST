@@ -10,6 +10,7 @@
   flex-shrink: 1;
   flex-direction: row;
   justify-content: flex-start;
+  z-index: 99999;
   background-color: rgba(0, 0, 0, 0.28);
 }
 .container1 {
@@ -17,8 +18,7 @@
   width: 100%;
   height: 77px;
   display: flex;
-  z-index: 99999;
-  position: sticky;
+  position: relative;
   align-self: flex-start;
   align-items: flex-start;
   flex-direction: row;
@@ -40,6 +40,7 @@
 }
 .nav {
   right: 280px;
+  margin-right: 121px;
   width: 862px;
   height: 100px;
   display: flex;
@@ -108,7 +109,7 @@
     flex: 2;
     left: 0px;
     right: right;
-    width: 869px;
+    width: 900px;
     bottom: 0px;
     margin: auto;
     position: absolute;
@@ -147,7 +148,7 @@
   .nav {
     top: 0px;
     left: auto;
-    right: 200px;
+    right: 156px;
     width: 304px;
     bottom: 0px;
     margin: auto;

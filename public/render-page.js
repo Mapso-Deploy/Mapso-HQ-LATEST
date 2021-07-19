@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("/sandbox/node_modules/lodash/merge.js"), require("react"), require("react-dom/server"), require("react-helmet"));
+		module.exports = factory(require("/Users/cozykev/Documents/GitHub/Mapso-HQ-LATEST/node_modules/lodash/merge.js"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else if(typeof define === 'function' && define.amd)
-		define("lib", ["/sandbox/node_modules/lodash/merge.js", "react", "react-dom/server", "react-helmet"], factory);
+		define("lib", ["/Users/cozykev/Documents/GitHub/Mapso-HQ-LATEST/node_modules/lodash/merge.js", "react", "react-dom/server", "react-helmet"], factory);
 	else if(typeof exports === 'object')
-		exports["lib"] = factory(require("/sandbox/node_modules/lodash/merge.js"), require("react"), require("react-dom/server"), require("react-helmet"));
+		exports["lib"] = factory(require("/Users/cozykev/Documents/GitHub/Mapso-HQ-LATEST/node_modules/lodash/merge.js"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else
-		root["lib"] = factory(root["/sandbox/node_modules/lodash/merge.js"], root["react"], root["react-dom/server"], root["react-helmet"]);
+		root["lib"] = factory(root["/Users/cozykev/Documents/GitHub/Mapso-HQ-LATEST/node_modules/lodash/merge.js"], root["react"], root["react-dom/server"], root["react-helmet"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_lodash_merge__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__, __WEBPACK_EXTERNAL_MODULE_react_helmet__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -107,6 +107,12 @@ var plugins = [{
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-react-helmet/gatsby-ssr */ "./node_modules/gatsby-plugin-react-helmet/gatsby-ssr.js"),
   options: {
     "plugins": []
+  }
+}, {
+  plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-snipcartv3/gatsby-ssr */ "./node_modules/gatsby-plugin-snipcartv3/gatsby-ssr.js"),
+  options: {
+    "plugins": [],
+    "apiKey": "ZjBiMTY5MjQtOGQ5OS00YTA2LTg4YzEtN2E3MTUxZjU1ODY0NjM3NDY3MDA5MTQwMjM3Nzk1"
   }
 }]; // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
@@ -595,6 +601,69 @@ var onRenderBody = function onRenderBody(_ref) {
 };
 
 exports.onRenderBody = onRenderBody;
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-plugin-snipcartv3/gatsby-ssr.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/gatsby-plugin-snipcartv3/gatsby-ssr.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _react = __webpack_require__(/*! react */ "react");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    default: obj
+  };
+}
+
+var warning = false;
+
+exports.onRenderBody = function (_ref) {
+  var setPostBodyComponents = _ref.setPostBodyComponents;
+  var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+  options = Object.assign({
+    apiKey: ({}).GATSBY_SNIPCART_API_KEY,
+    autopop: false,
+    js: 'https://cdn.snipcart.com/themes/v3.0.22/default/snipcart.js',
+    styles: 'https://cdn.snipcart.com/themes/v3.0.22/default/snipcart.css'
+  }, options);
+
+  if (!options.apiKey) {
+    if (!warning) {
+      warning = true;
+      console.log('No Snipcart API key found');
+    }
+
+    return;
+  }
+
+  var components = [_react2.default.createElement('script', {
+    key: 'snipcartJs',
+    src: options.js,
+    id: 'snipcart',
+    'data-api-key': options.apiKey,
+    'data-autopop': options.autopop
+  })];
+
+  if (options.styles) {
+    components.push(_react2.default.createElement('link', {
+      key: 'snipcartStyle',
+      href: options.styles,
+      type: 'text/css',
+      rel: 'stylesheet'
+    }));
+  }
+
+  return setPostBodyComponents(components);
+};
 
 /***/ }),
 
@@ -1720,7 +1789,10 @@ function HTML(props) {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
     property: "twitter:card",
     content: "summary_large_image"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", props.bodyAttributes, props.preBodyComponents, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("noscript", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", props.bodyAttributes, props.preBodyComponents, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
+    type: "module",
+    src: "https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("noscript", {
     key: "noscript",
     id: "gatsby-noscript"
   }, "This app works best with JavaScript enabled."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -1743,9 +1815,9 @@ HTML.propTypes = {
 /***/ }),
 
 /***/ "lodash/merge":
-/*!********************************************************!*\
-  !*** external "/sandbox/node_modules/lodash/merge.js" ***!
-  \********************************************************/
+/*!***********************************************************************************************!*\
+  !*** external "/Users/cozykev/Documents/GitHub/Mapso-HQ-LATEST/node_modules/lodash/merge.js" ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
