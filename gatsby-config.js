@@ -17,8 +17,7 @@ module.exports = {
   apiKey: 'ZjBiMTY5MjQtOGQ5OS00YTA2LTg4YzEtN2E3MTUxZjU1ODY0NjM3NDY3MDA5MTQwMjM3Nzk1'
   }
   },
-  'gatsby-transformer-sharp',
-  'gatsby-plugin-sharp',
+
   "gatsby-plugin-loadable-components-ssr",
   ],
   }
