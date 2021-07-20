@@ -1,0 +1,73 @@
+{
+  "errors": [],
+  "warnings": [
+    "./src/components/bitcoin-buy-button-test.js\nModule Warning (from ./node_modules/eslint-loader/index.js):\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[4m/Users/cozykev/Documents/GitHub/Mapso-HQ-LATEST/src/components/bitcoin-buy-button-test.js\u001b[24m\u001b[0m\n\u001b[0m  \u001b[2m16:3\u001b[22m  \u001b[33mwarning\u001b[39m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  \u001b[2mjsx-a11y/alt-text\u001b[22m\u001b[0m\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[33m\u001b[1m✖ 1 problem (0 errors, 1 warning)\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m\u001b[33m\u001b[1m\u001b[22m\u001b[39m\u001b[0m",
+    "./src/components/cart-component-dark.js\nModule Warning (from ./node_modules/eslint-loader/index.js):\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[4m/Users/cozykev/Documents/GitHub/Mapso-HQ-LATEST/src/components/cart-component-dark.js\u001b[24m\u001b[0m\n\u001b[0m  \u001b[2m49:1\u001b[22m  \u001b[33mwarning\u001b[39m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  \u001b[2mjsx-a11y/alt-text\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m51:6\u001b[22m  \u001b[33mwarning\u001b[39m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  \u001b[2mjsx-a11y/alt-text\u001b[22m\u001b[0m\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[33m\u001b[1m✖ 2 problems (0 errors, 2 warnings)\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m\u001b[33m\u001b[1m\u001b[22m\u001b[39m\u001b[0m",
+    "./src/components/cart-component-light.js\nModule Warning (from ./node_modules/eslint-loader/index.js):\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[4m/Users/cozykev/Documents/GitHub/Mapso-HQ-LATEST/src/components/cart-component-light.js\u001b[24m\u001b[0m\n\u001b[0m  \u001b[2m50:1\u001b[22m  \u001b[33mwarning\u001b[39m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  \u001b[2mjsx-a11y/alt-text\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m52:6\u001b[22m  \u001b[33mwarning\u001b[39m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  \u001b[2mjsx-a11y/alt-text\u001b[22m\u001b[0m\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[33m\u001b[1m✖ 2 problems (0 errors, 2 warnings)\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m\u001b[33m\u001b[1m\u001b[22m\u001b[39m\u001b[0m",
+    "./src/components/header-dark.js\nModule Warning (from ./node_modules/eslint-loader/index.js):\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[4m/Users/cozykev/Documents/GitHub/Mapso-HQ-LATEST/src/components/header-dark.js\u001b[24m\u001b[0m\n\u001b[0m  \u001b[2m13:11\u001b[22m  \u001b[33mwarning\u001b[39m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  \u001b[2mjsx-a11y/alt-text\u001b[22m\u001b[0m\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[33m\u001b[1m✖ 1 problem (0 errors, 1 warning)\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m\u001b[33m\u001b[1m\u001b[22m\u001b[39m\u001b[0m",
+    "./src/components/header-light.js\nModule Warning (from ./node_modules/eslint-loader/index.js):\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[4m/Users/cozykev/Documents/GitHub/Mapso-HQ-LATEST/src/components/header-light.js\u001b[24m\u001b[0m\n\u001b[0m  \u001b[2m13:11\u001b[22m  \u001b[33mwarning\u001b[39m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  \u001b[2mjsx-a11y/alt-text\u001b[22m\u001b[0m\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[33m\u001b[1m✖ 1 problem (0 errors, 1 warning)\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m\u001b[33m\u001b[1m\u001b[22m\u001b[39m\u001b[0m"
+  ],
+  "hash": "828f0e5410c776a4c2cc",
+  "publicPath": "/",
+  "outputPath": "/Users/cozykev/Documents/GitHub/Mapso-HQ-LATEST",
+  "assetsByChunkName": {
+    "commons": [
+      "commons.js",
+      "commons.js.map"
+    ],
+    "polyfill": [
+      "polyfill.js",
+      "polyfill.js.map"
+    ]
+  },
+  "assets": [],
+  "filteredAssets": 9,
+  "namedChunkGroups": {
+    "polyfill": {
+      "chunks": [
+        "polyfill"
+      ],
+      "assets": [
+        "polyfill.js",
+        "polyfill.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "commons": {
+      "chunks": [
+        "commons"
+      ],
+      "assets": [
+        "commons.js",
+        "commons.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": 0,
+      "files": [
+        "0.js",
+        "0.js.map"
+      ]
+    },
+    {
+      "id": "commons",
+      "files": [
+        "commons.js",
+        "commons.js.map"
+      ]
+    },
+    {
+      "id": "polyfill",
+      "files": [
+        "polyfill.js",
+        "polyfill.js.map"
+      ]
+    }
+  ]
+}

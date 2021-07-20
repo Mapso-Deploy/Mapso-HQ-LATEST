@@ -1,0 +1,38 @@
+{
+  "errors": [],
+  "warnings": [],
+  "hash": "43e42f244bbf1ce3fe72",
+  "publicPath": "/",
+  "outputPath": "/Users/cozykev/Documents/GitHub/Mapso-HQ-LATEST/public",
+  "assetsByChunkName": {
+    "main": [
+      "render-page.js",
+      "render-page.js.map"
+    ]
+  },
+  "assets": [],
+  "filteredAssets": 2,
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "render-page.js",
+        "render-page.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "main",
+      "files": [
+        "render-page.js",
+        "render-page.js.map"
+      ]
+    }
+  ]
+}

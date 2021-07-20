@@ -4,6 +4,9 @@ var plugins = [{
     },{
       plugin: require('/Users/cozykev/Documents/GitHub/Mapso-HQ-LATEST/node_modules/gatsby-plugin-snipcartv3/gatsby-ssr'),
       options: {"plugins":[],"apiKey":"ZjBiMTY5MjQtOGQ5OS00YTA2LTg4YzEtN2E3MTUxZjU1ODY0NjM3NDY3MDA5MTQwMjM3Nzk1"},
+    },{
+      plugin: require('/Users/cozykev/Documents/GitHub/Mapso-HQ-LATEST/node_modules/gatsby-plugin-loadable-components-ssr/gatsby-ssr'),
+      options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
